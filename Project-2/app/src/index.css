@@ -1,0 +1,736 @@
+
+
+.Navbar-contair {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  
+}
+
+.Navbar-upper img {
+  width: 100px; /* Adjust as per your design */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.Navbar-middile ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.Navbar-middile li {
+  margin-right: 20px;
+}
+.Navbar-middile li:hover {
+  color: red;
+}
+.Navbar-lower{
+  margin-top:15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar-lower-1st a,
+.Navbar-lower-2nd a,
+.Navbar-lower-3rd a,
+.Navbar-lower-4th a {
+  text-decoration: none;
+  color: #333333;
+  margin-right:10px;
+}
+
+
+.Navbar-lower-3rd img {
+  width: 30px; /* Adjust as per your design */
+  height: 30px; /* Maintain aspect ratio */
+}
+
+
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-first,
+.search-second {
+  display: flex;
+  margin-bottom:3px;
+  margin-right:100px;
+  justify-content: space-between; /* Align children divs to the start and end */
+}
+
+.search-first-left,
+.search-second-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location-icon img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.location-input select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-first-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-input input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px; /* Adjust width as needed */
+}
+
+.serach-icon img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.search-second-left span {
+  width:250px;
+  font-weight: bold;
+  color: #666565;
+}
+
+.search-second-right a {
+  text-decoration: none;
+  background-color: rgb(241, 86, 47);
+  color: white;
+  margin-left:50px;
+  font-weight: bold;
+  white-space: nowrap; /* Prevent line break */
+}
+
+
+.List-container {
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+  height:50px;
+  border: 1px solid #333;
+
+}
+
+.List-HealthResources,
+.List-Vitamins,
+.List-Personal,
+.List-Healthcare,
+.List-Ayurveda {
+ width:90%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.List-left {
+  display: flex;
+  align-items: center;
+}
+
+.angle-down {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.List-right {
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul span {
+  color: #333;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #666;
+}
+
+
+#dropdowndiv{
+  display: flex;
+  justify-content: space-around;
+   
+}
+
+.dropbtn{
+  border: none;
+  background-color: white;
+  margin: 10px 10px;
+}
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  }
+
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: smaller;
+  }
+
+  .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+
+  .dropdown-content a:hover {color:#ff6f61;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {color:#ff6f61;}
+
+
+  
+  
+  #banner {
+    display: flex;
+  }
+  
+  .bannerImage1 {
+    width: 65%;
+    height:200px;
+    
+  }
+  
+  .bannerImage2 {
+    margin-right: 20px;
+    width:35%;
+    
+  }
+  
+  .bannerImage {
+    width:100%;
+    height:200px;
+  }
+  
+  #BannerHeding {
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    margin-left: 250px;
+    margin-top: 50px; /* Adjust spacing from the images */
+    margin-bottom:40px; /* Adjust spacing between heading and images */
+  }
+  
+  #BannerWithBtn {
+    text-align: center;
+  }
+  
+  #bannerImageBtn {
+    width: 90%;
+    height: 90px;
+    border: 1px solid rgb(156, 154, 154);
+  }
+  
+   
+
+  /* Reset Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styles */
+#product {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading Styles */
+h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Health Product Card Styles */
+#health-cart {
+  
+  background-color: #d4d1d1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.health-pc {
+  width: 150px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.health-pc:last-child {
+  margin-right: 0;
+}
+
+.health-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-btn {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.product-btn button {
+  padding: 10px 20px;
+  background-color:white;
+  color:rgb(71, 71, 71);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-btn button:hover {
+  background-color:white;
+}
+
+   
+
+/* Container Styles */
+#popular-categories {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading Styles */
+.brand_button h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* See All Button Styles */
+.brand_button a button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: rgb(253, 63, 63);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.brand_button a button:hover {
+  background-color:rgb(253, 63, 63);
+}
+
+/* Popular Product Card Styles */
+#popular-cart {
+  background-color: #d4d1d1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popular-pc {
+  width: 150px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.popular-pc:last-child {
+  margin-right: 0;
+}
+
+.popular-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+
+/* Featured Brands Styles */
+#Featured-brands {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Featured Products Styles */
+#featured-cart {
+  background-color: #d4d1d1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured-pc {
+  width: 150px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.featured-pc:last-child {
+  margin-right: 0;
+}
+
+.featured-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+  /* Homeopathy Styles */
+#Homeopathy {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* Homeopathy Products Styles */
+#homeopathy-cart {
+  background-color: #d4d1d1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.homeopathy-pc {
+  width: 150px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.homeopathy-pc:last-child {
+  margin-right: 0;
+}
+
+.homeopathy-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Winter Care Styles */
+#winter-care {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Winter Care Products Styles */
+#winter-cart {
+  background-color: #d4d1d1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.winter-pc {
+  width: 150px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.winter-pc:last-child {
+  margin-right: 0;
+}
+
+.winter-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+#ayurveda-care{
+  width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Ayurveda Styles */
+#Ayurveda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#Ayurveda > div {
+  flex: 0 0 auto;
+  width: 20%; /* Adjust width based on your design */
+  text-align: center;
+  
+}
+
+#Ayurveda img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#Ayurveda h4 {
+  margin: 5px 0;
+}
+
+#Ayurveda p {
+  margin: 0;
+}
+
+#fP {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#fP h2 {
+  color: #333;
+}
+
+#fP h3 {
+  color: #555;
+}
+
+#fP p {
+  color: #777;
+  line-height: 1.6;
+}
+
+#fP b {
+  font-weight: bold;
+}
+
+#secondLastdiv {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#secondLastdiv #c {
+  font-size: 24px;
+  font-weight: bold;
+  color:black;
+  margin-left: 400px;
+  margin-bottom: 10px;
+}
+
+#inside {
+  display: flex;
+  justify-content: space-between;
+}
+
+#inside div {
+  text-align: center;
+  flex: 1;
+}
+
+#inside h1 {
+  font-size: 36px;
+  color:black;
+}
+
+#inside p {
+  color: #5e5b5b;
+}
+
+#inside hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+#get {
+  display: flex;
+  align-items: center;
+}
+
+#get div:first-child {
+  flex: 1;
+  margin-top: 15px;
+  margin-left: 450px;
+}
+
+#get input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  
+}
+
+#get button {
+  padding: 8px 20px;
+  margin-top: 20px;
+  margin-right: 300px;
+  font-size: 16px;
+  background-color:rgb(250, 77, 77);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#get button:hover {
+  background-color:rgb(250, 77, 77);;
+}
+
+
+
+#footer{
+  background-color: rgb(255, 248, 248);
+}
+#Footer{
+  display: flex;
+  margin: auto;
+}
+.links{
+  margin: auto;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-top: 5px;
+}
+.links img{
+  width: 100px;
+  height: 35px;
+}
+.links div{
+  padding-bottom: 5px;
+}
+#social img{
+  width: 25px;
+  height: 25px;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+#RSA{
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.rsa{
+  display: flex;
+  align-items: center;
+  padding:5px 20px 5px 20px;
+}
+.rsa div{
+  padding: 15px;
+}
+#RSA img{
+  width: 90px;
+  height: 90px;
+}
+#iso{
+  margin: 40px;
+  margin-top: 20px;
+}
+#iiso{
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+#iiso div{
+  margin: 15px;
+}
+#iso img{
+  width: 100px;
+  height: 100px;
+}
+
+.collapsible{
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2212";
+}
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#last{
+  display: flex;
+  width: 95%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+#last img{
+  width: 100%;
+  height: 40px;
+}
+#last div{
+  width: 15%;      
+}
+
+.btn{
+  background-color: rgb(245, 71, 71);
+  color:white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+
