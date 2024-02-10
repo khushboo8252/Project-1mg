@@ -6,7 +6,7 @@ const Homeopathy = () => {
         <div id="Homeopathy">
             <div class="brand_button">
                 <h3>Homeopathy - top brands</h3>
-                <a href="medicine.html"><button>SEE ALL</button></a>
+                <a href="/medicine"><button>SEE ALL</button></a>
             </div>
             <div id="homeopathy-cart">
                 <div class="homeopathy-pc">

@@ -6,7 +6,7 @@ const Wintercare = () => {
          <div id="winter-care">
             <div class="brand_button">
                 <h3>Winter Care</h3>
-                <a href="medicine.html"><button>SEE ALL</button></a>
+                <a href="/medicine"><button>SEE ALL</button></a>
             </div>
             <div id="winter-cart">
                 <div class="winter-pc">

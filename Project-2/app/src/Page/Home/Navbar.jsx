@@ -1,6 +1,16 @@
-import React from 'react';
+import { useState } from 'react';
+import LoginPage from '../Login';
+import { red } from '@mui/material/colors';
 
 function Navbar() {
+  const [open, setOpen] = useState(false);
+
+  const openDialog = () => {
+    setOpen(true);
+  }
+
+ 
+
   return (
     <div className='Navbar-contair'>
       <div className='Navbar-upper'>
@@ -9,35 +19,35 @@ function Navbar() {
         </a>
       </div>
 
-      
       <div className='Navbar-middile'>
         <ul>
-          <li><a href='/'></a>MEDICINES</li>
-          <li><a href='/'></a> LAB TESTS</li>
-          <li><a href='/'></a>CONSULT DOCTORS</li>
-          <li><a href='/'></a>CANCER CARE</li>
-          <li><a href='/'></a>AYURVEDA</li>
-          <li><a href='/'></a>CARE PLAN</li>
+          <li><a href='/'>MEDICINES</a></li>
+          <li><a href='/'>LAB TESTS</a></li>
+          <li><a href='/'>CONSULT DOCTORS</a></li>
+          <li><a href='/'>CANCER CARE</a></li>
+          <li><a href='/'>AYURVEDA</a></li>
+          <li><a href='/'>CARE PLAN</a></li>
         </ul>
       </div>
 
       <div className='Navbar-lower'>
         <div className='Navbar-lower-1st'>
-          <a href="/">Login</a>
-          <a href="/">Sign Up</a>
+          <button style={{marginRight:15,padding:3,color:red,border:'none'}} onClick={() => openDialog()}>Login | Signup</button>
+         
         </div>
         <div className='Navbar-lower-2nd'>
           <a href="/">Offers</a>
         </div>
         <div className='Navbar-lower-3rd'>
-          <a href="/"><img src="https://st2.depositphotos.com/6628792/9630/v/950/depositphotos_96308306-stock-illustration-shopping-cart-icon.jpg" alt="cart counter" /></a>
+          <a href="/">
+            <img src="https://st2.depositphotos.com/6628792/9630/v/950/depositphotos_96308306-stock-illustration-shopping-cart-icon.jpg" alt="cart counter" />
+          </a>
         </div>
         <div className='Navbar-lower-4th'>
-        <a href="/">Need Help</a>
+          <a href="/">Need Help</a>
+        </div>
+        <LoginPage open={open} setOpen={setOpen} />
       </div>
-      </div>
-
-      
     </div>
   );
 }

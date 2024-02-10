@@ -6,11 +6,11 @@ const PopularCategories = () => {
               <div id="popular-categories">
             <div class="brand_button">
                 <h3>Popular Categories</h3>
-                <a href="medicine.html"><button>SEE ALL</button></a>
+                <a href="/medicine"><button>SEE ALL</button></a>
             </div>
             <div id="popular-cart">
                 <div class="popular-pc">
-                    <a href="medicine.html">
+                    <a href="medicine">
                         <div>
                             <div class="popular-image">
                                 <img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit…o,f_auto/8eda05dc-eb77-409d-9302-c06b8f7aea10.png" alt=""/>   

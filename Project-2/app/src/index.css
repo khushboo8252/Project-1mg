@@ -9,8 +9,8 @@
 }
 
 .Navbar-upper img {
-  width: 100px; /* Adjust as per your design */
-  height: auto; /* Maintain aspect ratio */
+  width: 100px;
+  height: auto; 
 }
 
 .Navbar-middile ul {
@@ -22,8 +22,14 @@
 .Navbar-middile li {
   margin-right: 20px;
 }
-.Navbar-middile li:hover {
-  color: red;
+.Navbar-middile a {
+  text-decoration: none;
+  color: black; /* Default color for menu items */
+  transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.Navbar-middile a:hover {
+  color: red; /* Color to change to on hover */
 }
 .Navbar-lower{
   margin-top:15px;
@@ -45,6 +51,8 @@
   width: 30px; /* Adjust as per your design */
   height: 30px; /* Maintain aspect ratio */
 }
+
+
 
 
 
@@ -89,6 +97,7 @@
 }
 
 .search-input input {
+  background-color: #cac5c5;
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -731,6 +740,191 @@ h3 {
   border-radius: 5px;
 }
 
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.login-head {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-submit {
+  text-align: center;
+}
+
+.submit {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+.para {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.anchor-sign {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.anchor-sign:hover {
+  text-decoration: underline;
+}
 
 
 
+/* Add this CSS in your styles file or component */
+
+.signup-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.signup-modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.signup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.signup-head {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-button-container {
+  text-align: center;
+}
+
+.signup-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #45a049;
+}
+
+.signup-para {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.signup-anchor {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.signup-anchor:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between cards as needed */
+  justify-content: space-around; /* Adjust alignment as needed */
+}
+
+.card {
+  width: calc(25% - 20px); /* 25% width for each card with gap accounted for */
+  box-sizing: border-box;
+  border: 1px solid #ddd; /* Add border as needed */
+  padding: 10px;
+  text-align: center;
+}
+
+.image-cart {
+  max-width: 100%;
+  height: auto;
+}
+
+.button-cart {
+  cursor: pointer;
+}
+
+/* Add hover effect if needed */
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

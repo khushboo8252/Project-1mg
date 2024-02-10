@@ -6,7 +6,7 @@ const Featured = () => {
                 <div id="Featured-brands">
             <div class="brand_button">
                 <h3>Featured Brands</h3>
-                <a href="medicine.html"><button>SEE ALL</button></a>
+                <a href="/medicine"><button>SEE ALL</button></a>
             </div>
             <div id="featured-cart">
                 <div class="featured-pc">

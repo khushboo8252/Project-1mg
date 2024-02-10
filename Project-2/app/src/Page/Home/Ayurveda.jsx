@@ -6,7 +6,7 @@ const Ayurveda = () => {
         <div id='ayurveda-care'>
             <div class="brand_button">
                 <h3 >Ayurveda</h3>
-                <a href="medicine.html"><button>SEE ALL</button></a>
+                <a href="/medicine"><button>SEE ALL</button></a>
             </div>
         <div id="Ayurveda">
             <div>
